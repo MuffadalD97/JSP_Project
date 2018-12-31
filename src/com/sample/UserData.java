@@ -3,6 +3,7 @@ package com.sample;
 import java.sql.*;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class UserData 
@@ -324,11 +325,16 @@ public class UserData
 				while(rs.next())
 				{
 					jsonObject = new JSONObject();
-					jsonObject.put("name",rs.getString("name"));
-					jsonObject.put("country",rs.getString("country"));
-					jsonObject.put("no_of_teams",rs.getInt("no_of_teams"));
-					jsonObject.put("cl_spots",rs.getInt("cl_spots"));
-					result.accumulate("result",jsonObject);
+					try {
+						jsonObject.put("name",rs.getString("name"));
+						jsonObject.put("country",rs.getString("country"));
+						jsonObject.put("no_of_teams",rs.getInt("no_of_teams"));
+						jsonObject.put("cl_spots",rs.getInt("cl_spots"));
+						result.accumulate("result",jsonObject);
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 				System.out.println(result);
 			}
@@ -340,11 +346,16 @@ public class UserData
 				while(rs.next())
 				{
 					jsonObject = new JSONObject();
-					jsonObject.put("name",rs.getString("name"));
-					jsonObject.put("manager",rs.getString("manager"));
-					jsonObject.put("stadium",rs.getString("stadium"));
-					jsonObject.put("position",rs.getInt("position"));
-					result.accumulate("result",jsonObject);
+					try {
+						jsonObject.put("name",rs.getString("name"));
+						jsonObject.put("manager",rs.getString("manager"));
+						jsonObject.put("stadium",rs.getString("stadium"));
+						jsonObject.put("position",rs.getInt("position"));
+						result.accumulate("result",jsonObject);
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 				System.out.println(result);
 			}
@@ -356,11 +367,16 @@ public class UserData
 				while(rs.next())
 				{
 					jsonObject = new JSONObject();
-					jsonObject.put("name",rs.getString("name"));
-					jsonObject.put("age",rs.getInt("age"));
-					jsonObject.put("nationality",rs.getString("nationality"));
-					jsonObject.put("position",rs.getString("position"));
-					result.accumulate("result",jsonObject);
+					try {
+						jsonObject.put("name",rs.getString("name"));
+						jsonObject.put("age",rs.getInt("age"));
+						jsonObject.put("nationality",rs.getString("nationality"));
+						jsonObject.put("position",rs.getString("position"));
+						result.accumulate("result",jsonObject);
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 				System.out.println(result);
 			}

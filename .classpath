@@ -14,36 +14,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/Users/muffa-pt2531/Documents/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/json-rpc-1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/muffa-pt2531/Documents/apache-tomcat-9.0.14/lib/servlet-api 3.59.17 PM.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/tiles-3.0.7/tiles-api-3.0.7.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/tiles-3.0.7/tiles-core-3.0.7.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/tiles-3.0.7/tiles-jsp-3.0.7.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/tiles-3.0.7/tiles-servlet-3.0.7.jar"/>
-	<classpathentry kind="lib" path="/Users/muffa-pt2531/Downloads/tiles-3.0.7/tiles-template-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-rpc-1.0 4.00.21 PM 4.01.27 PM 4.11.11 PM 4.11.59 PM.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-8.0.13 4.00.21 PM 4.11.11 PM 4.11.59 PM.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-api-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-compat-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-core-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-el-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-extras-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-freemarker-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-jsp-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-mvel-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-ognl-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-api-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-freemarker-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-jsp-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-mustache-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-servlet-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-servlet-wildcard-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-request-velocity-1.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-servlet-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-template-3.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-velocity-3.0.7.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-rpc-1.0.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>
