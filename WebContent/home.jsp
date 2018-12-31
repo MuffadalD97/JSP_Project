@@ -206,7 +206,7 @@
 		<input type = "submit" name = "logout" value = "Logout" style="height:120px;width:100px">
 	</form>
 	
-	Welcome <%=user.getFirstName()%> <%= user.getLastName()%>,hi
+	Welcome <%=user.getFirstName()%> <%= user.getLastName()%>,
 	<br>
 	<br>
 	
